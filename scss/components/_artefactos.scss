@@ -1,0 +1,221 @@
+@import "../base/extend";
+
+.mainArtefactos{
+    display: grid;
+    grid-template-areas: "Esmeralda1 Esmeralda2 Esmeralda3 Esmeralda4 Esmeralda5" 
+                             "parrafo1 parrafo2 parrafo3 parrafo4 parrafo5 "
+                         " gladiador1 gladiador2 gladiador3 gladiador4 gladiador5"
+                             " parrafo6 parrafo7 parrafo8 parrafo9 parrafo10"
+                                "trueno1 trueno2 trueno3 trueno4 trueno5"
+                             "parrafo11 parrafo12 parrafo13 parrafo14 parrafo15"
+                                    "bruja1 bruja2 bruja3 bruja4 bruja5"
+                             "parrafo16 parrafo17 parrafo18 parrafo19 parrafo20"
+                             "doncella1 doncella2 doncella3 doncella4 doncella5"
+                             "parrafo21 parrafo22 parrafo23 parrafo24 parrafo25" ;     
+    gap: 1%;        
+}
+
+/*esmeralda*/
+.esmeralda1 {
+    grid-area: Esmeralda1;
+}
+
+.esmeralda2 {
+    grid-area: Esmeralda2;
+}
+
+.esmeralda3 {
+    grid-area: Esmeralda3;
+}
+
+.esmeralda4 {
+    grid-area: Esmeralda4;
+}
+
+.esmeralda5 {
+    grid-area: Esmeralda5;
+}
+
+.parrafo1 {
+    grid-area: parrafo1;
+    @extend %parrafosartefactos;
+    
+ }
+
+.parrafo2 {
+    grid-area: parrafo2;
+    @extend %parrafosartefactos;
+}
+
+.parrafo3 {
+    grid-area: parrafo3;
+    @extend %parrafosartefactos;
+}
+
+.parrafo4 {
+    grid-area: parrafo4;
+    @extend %parrafosartefactos; 
+}
+
+.parrafo5 {
+grid-area: parrafo5;
+@extend %parrafosartefactos;
+}
+
+/*esmeralda*/
+
+/*gladiador*/
+
+.gladiador1{
+    grid-area: gladiador1;
+}
+.gladiador2{
+    grid-area: gladiador2;
+}
+.gladiador3{
+    grid-area: gladiador3;
+}
+.gladiador4{
+    grid-area: gladiador4;
+}
+.gladiador5{
+    grid-area: gladiador5;
+}
+.parrafo6 {
+    grid-area: parrafo6;
+    @extend %parrafosartefactos;
+ }
+ .parrafo7 {
+    grid-area: parrafo7;
+    @extend %parrafosartefactos;
+ }
+ .parrafo8 {
+    grid-area: parrafo8;
+    @extend %parrafosartefactos;
+ }
+ .parrafo9 {
+    grid-area: parrafo9;
+    @extend %parrafosartefactos;
+ }
+ .parrafo10 {
+    grid-area: parrafo10;
+    @extend %parrafosartefactos;
+ }
+/*gladiador*/
+
+/*trueno*/
+
+.trueno1{
+    grid-area: trueno1;
+}
+.trueno2{
+    grid-area: trueno2;
+}
+.trueno3{
+    grid-area: trueno3;
+}
+.trueno4{
+    grid-area: trueno4;
+}
+.trueno5{
+    grid-area: trueno5;
+}
+.parrafo11 {
+    grid-area: parrafo11;
+    @extend %parrafosartefactos;
+ }
+ .parrafo12 {
+    grid-area: parrafo12;
+    @extend %parrafosartefactos;
+ }
+ .parrafo13 {
+    grid-area: parrafo13;
+    @extend %parrafosartefactos;
+ }
+ .parrafo14 {
+    grid-area: parrafo14;
+    @extend %parrafosartefactos;
+ }
+ .parrafo15 {
+    grid-area: parrafo15;
+    @extend %parrafosartefactos;
+ }
+ /*trueno*/
+
+ /*bruja*/
+
+ .bruja1{
+     grid-area: bruja1;
+ }
+ .bruja2{
+    grid-area: bruja2;
+}
+.bruja3{
+    grid-area: bruja3;
+}
+.bruja4{
+    grid-area: bruja4;
+}
+.bruja5{
+    grid-area: bruja5;
+}
+.parrafo16 {
+    grid-area: parrafo16;
+    @extend %parrafosartefactos;
+ }
+ .parrafo17 {
+    grid-area: parrafo17;
+    @extend %parrafosartefactos;
+ }
+ .parrafo18 {
+    grid-area: parrafo18;
+    @extend %parrafosartefactos;
+ }
+ .parrafo19 {
+    grid-area: parrafo19;
+    @extend %parrafosartefactos;
+ }
+ .parrafo20 {
+    grid-area: parrafo20;
+    @extend %parrafosartefactos;
+ }
+ 
+ /*bruja*/
+
+/*doncella*/
+
+.doncella1{
+    grid-area: doncella1;
+}
+.doncella2{
+    grid-area: doncella2;
+}
+.doncella3{
+    grid-area: doncella3;
+}
+.doncella4{
+    grid-area: doncella4;
+}
+.doncella5{
+    grid-area: doncella5;
+}
+.parrafo21 {
+    grid-area: parrafo21;
+    @extend %parrafosartefactos;
+ }
+ .parrafo22 {
+    grid-area: parrafo22;
+    @extend %parrafosartefactos;
+ }
+ .parrafo23 {
+    grid-area: parrafo23;
+    @extend %parrafosartefactos;
+ }
+ .parrafo24 {
+    grid-area: parrafo24;
+    @extend %parrafosartefactos;
+ }
+ .parrafo25 {
+    grid-area: parrafo25;
+    @extend %parrafosartefactos;
+ }

@@ -1,0 +1,439 @@
+.artifactsP {
+    color: whitesmoke;
+    background-color: rgba($color: black, $alpha: 0.5);
+    border-radius: 25px;
+}
+
+
+
+* {
+    margin: 0%;
+    padding:0%;
+  }
+
+body { 
+    background-image: url(multimedia/mona-estrellas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* index*/
+
+/*header*/
+
+.jon-menu_principal{
+    background-image: linear-gradient(to bottom, #e2d8e7, #dbc4e7,
+     #d2b0e7, #c99de8, #be89e8, #a977d4, #9465c0, #7f53ac, 
+     #5e3f80, #402c57, #241a30, #06010b);
+     display: flex;
+     width: 100vw;
+    }
+
+ .jon-title{
+     color: ghostwhite;
+     position: absolute;
+     right: 35vw;
+     font-size: 5vw;
+     text-decoration: underline;
+ }  
+
+ .jon-logo1 {
+     width: 100%;
+     height: 100%;
+ }
+
+.jon-logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.jon_menu {
+    width: 100%;
+}
+.jon-sub_menu {
+    margin-left: 450px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 250%;}
+
+li{
+    list-style: none;
+    padding-top: 15%;
+    padding-right: 20px;
+}
+header nav ul li a{
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header nav ul li a:hover{
+    color: silver;
+    background-color:black;
+    border-radius: 10px;
+}
+/*header*/
+
+iframe{
+    padding-bottom: 15%;
+}
+
+/*main*/
+
+.elementos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    transition: all 2s;
+}
+
+main div div a img{
+    width: 350px;
+    height: 350px;
+    padding: 5px;   
+    transition: all 2s;
+}
+
+.elementos:hover{
+    opacity: 1;
+}
+
+main div div a{
+    transition: all 2s;
+}
+
+main .elementos div a :hover {
+transform: scale(1.2);
+}
+
+
+/*fin index*/
+
+/*html-artefactos*/
+
+.mainArtefactos{
+    display: grid;
+    grid-template-areas: "Esmeralda1 Esmeralda2 Esmeralda3 Esmeralda4 Esmeralda5" 
+                             "parrafo1 parrafo2 parrafo3 parrafo4 parrafo5 "
+                         " gladiador1 gladiador2 gladiador3 gladiador4 gladiador5"
+                             " parrafo6 parrafo7 parrafo8 parrafo9 parrafo10"
+                                "trueno1 trueno2 trueno3 trueno4 trueno5"
+                             "parrafo11 parrafo12 parrafo13 parrafo14 parrafo15"
+                                    "bruja1 bruja2 bruja3 bruja4 bruja5"
+                             "parrafo16 parrafo17 parrafo18 parrafo19 parrafo20"
+                             "doncella1 doncella2 doncella3 doncella4 doncella5"
+                             "parrafo21 parrafo22 parrafo23 parrafo24 parrafo25" ;     
+    gap: 1%;        
+}
+
+/*esmeralda*/
+.esmeralda1 {
+    grid-area: Esmeralda1;
+}
+
+.esmeralda2 {
+    grid-area: Esmeralda2;
+}
+
+.esmeralda3 {
+    grid-area: Esmeralda3;
+}
+
+.esmeralda4 {
+    grid-area: Esmeralda4;
+}
+
+.esmeralda5 {
+    grid-area: Esmeralda5;
+}
+
+.parrafo1 {
+    grid-area: parrafo1;
+    color: whitesmoke;
+ }
+
+.parrafo2 {
+    grid-area: parrafo2;
+    color: whitesmoke;
+}
+
+.parrafo3 {
+    grid-area: parrafo3;
+    color: whitesmoke;
+}
+
+.parrafo4 {
+    grid-area: parrafo4;
+    color: whitesmoke; }
+
+.parrafo5 {
+grid-area: parrafo5;
+color: whitesmoke;
+}
+
+/*esmeralda*/
+
+/*gladiador*/
+
+.gladiador1{
+    grid-area: gladiador1;
+}
+.gladiador2{
+    grid-area: gladiador2;
+}
+.gladiador3{
+    grid-area: gladiador3;
+}
+.gladiador4{
+    grid-area: gladiador4;
+}
+.gladiador5{
+    grid-area: gladiador5;
+}
+.parrafo6 {
+    grid-area: parrafo6;
+    color: whitesmoke;
+ }
+ .parrafo7 {
+    grid-area: parrafo7;
+    color: whitesmoke;
+ }
+ .parrafo8 {
+    grid-area: parrafo8;
+    color: whitesmoke;
+ }
+ .parrafo9 {
+    grid-area: parrafo9;
+    color: whitesmoke;
+ }
+ .parrafo10 {
+    grid-area: parrafo10;
+    color: whitesmoke;
+ }
+/*gladiador*/
+
+/*trueno*/
+
+.trueno1{
+    grid-area: trueno1;
+}
+.trueno2{
+    grid-area: trueno2;
+}
+.trueno3{
+    grid-area: trueno3;
+}
+.trueno4{
+    grid-area: trueno4;
+}
+.trueno5{
+    grid-area: trueno5;
+}
+.parrafo11 {
+    grid-area: parrafo11;
+    color: whitesmoke;
+ }
+ .parrafo12 {
+    grid-area: parrafo12;
+    color: whitesmoke;
+ }
+ .parrafo13 {
+    grid-area: parrafo13;
+    color: whitesmoke;
+ }
+ .parrafo14 {
+    grid-area: parrafo14;
+    color: whitesmoke;
+ }
+ .parrafo15 {
+    grid-area: parrafo15;
+    color: whitesmoke;
+ }
+ /*trueno*/
+
+ /*bruja*/
+
+ .bruja1{
+     grid-area: bruja1;
+ }
+ .bruja2{
+    grid-area: bruja2;
+}
+.bruja3{
+    grid-area: bruja3;
+}
+.bruja4{
+    grid-area: bruja4;
+}
+.bruja5{
+    grid-area: bruja5;
+}
+.parrafo16 {
+    grid-area: parrafo16;
+    color: whitesmoke;
+ }
+ .parrafo17 {
+    grid-area: parrafo17;
+    color: whitesmoke;
+ }
+ .parrafo18 {
+    grid-area: parrafo18;
+    color: whitesmoke;
+ }
+ .parrafo19 {
+    grid-area: parrafo19;
+    color: whitesmoke;
+ }
+ .parrafo20 {
+    grid-area: parrafo20;
+    color: whitesmoke;
+ }
+ 
+ /*bruja*/
+
+/*doncella*/
+
+.doncella1{
+    grid-area: doncella1;
+}
+.doncella2{
+    grid-area: doncella2;
+}
+.doncella3{
+    grid-area: doncella3;
+}
+.doncella4{
+    grid-area: doncella4;
+}
+.doncella5{
+    grid-area: doncella5;
+}
+.parrafo21 {
+    grid-area: parrafo21;
+    color: whitesmoke;
+ }
+ .parrafo22 {
+    grid-area: parrafo22;
+    color: whitesmoke;
+ }
+ .parrafo23 {
+    grid-area: parrafo23;
+    color: whitesmoke;
+ }
+ .parrafo24 {
+    grid-area: parrafo24;
+    color: whitesmoke;
+ }
+ .parrafo25 {
+    grid-area: parrafo25;
+    color: whitesmoke;
+ }
+ /*doncella*/
+
+ /* fin html artefactos*/
+
+ /*html peronajes*/
+
+ .mainPersonajes{
+     align-items: center;
+     display: grid;
+     grid-template-areas:"xiangl xianglin  parrafoxian parrafoxian"
+                         "xiangl xianglin parrafoxian parrafoxian"
+                         "parrafovi parrafoviaj viajero viajero"
+                         "parrafovi parrafoviaj viajero viajero"
+                         "barba barbara parrafobarb parrafobarb"
+                         "barba barbara parrafobarb parrafobarb"
+                         "parraf parrafokae kaeya kaeya"
+                         "parrafo parrafokae kaeya kaeya"
+                         "fis fisch  parrafofisch parrafofisch"
+                         "fis fisch parrafofisch parrafofisch"
+                         "parrafon parrafonoel noelle noelle"
+                         "parrafon parrafonoel noelle noelle" ;
+                         
+ }
+ .Xiangling{
+     grid-area: xianglin;
+ }
+ .pxiangling{
+     grid-area: parrafoxian;
+     font-size: 25px;
+    color: silver;
+ }
+ .viajero{
+     grid-area: viajero;
+ }
+.pviajero{
+    grid-area: parrafoviaj;
+    font-size: 25px;
+     color: silver;
+}
+.barbara{
+    grid-area: barbara;
+}
+.pbarbara{
+    grid-area: parrafobarb;
+    font-size: 25px;
+     color: silver;
+}
+.kaeya{
+    grid-area: kaeya;
+}
+.pkaeya{
+    grid-area: parrafokae;
+    font-size: 25px;
+     color: silver;
+}
+.fisch{
+    grid-area: fisch;
+}
+.pfisch{
+    grid-area:parrafofisch; 
+    font-size: 25px;
+     color: silver;
+}
+.noelle{
+    grid-area: noelle;
+}
+.pnoelle{
+    grid-area: parrafonoel;
+    font-size: 25px;
+     color: silver;
+}
+
+.personaje{
+    width: 380px;
+    height: 650px;
+}
+
+@media only screen and (max-width: 1200px) {
+.jon-title{
+            display: none;
+        }
+iframe{
+    width: 100%;
+    height: 100%;
+}
+}
+@media only screen and (max-width: 700px) {
+main div div a img{
+        width: 150px;
+        height: 150px;   
+        transition: all 2s;
+    }
+
+.jon-logo{
+         position: absolute;
+         width: 100px;
+         height: 100px;    }
+
+.jon-sub_menu {
+    margin-left: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;}
+  
+}

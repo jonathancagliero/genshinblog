@@ -1,0 +1,32 @@
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .jon-title{
+                display: none;
+            }
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    }
+    @media only screen and (max-width: 700px) {
+    main div div a img{
+            width: 150px;
+            height: 150px;   
+            transition: all 2s;
+        }
+    .jon-title{
+            display: none;
+        }
+    
+    .jon_logo{
+             position: absolute;
+             width: 100px;
+             height: 100px;    }
+    
+    .jon_sub_menu {
+        margin-left: 80px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 150%;}
+      
+    }

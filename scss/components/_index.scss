@@ -1,0 +1,29 @@
+
+main{
+     .elementos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        opacity: 0.5;
+        transition: all 2s;
+        &:hover{
+            opacity: 1;
+        }
+         div{
+             a{
+                transition: all 2s;
+                 img{
+                    width: 350px;
+                    height: 350px;
+                    padding: 5px;   
+                    transition: all 2s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+
+                 }
+             }
+
+         }
+     }
+}

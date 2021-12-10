@@ -1,0 +1,20 @@
+@import "components/header";
+@import "components/index";
+@import "components/artefactos";
+@import "components/personajes";
+@import "base/mediaquerys";
+@import "base/extend";
+
+
+
+* {
+    margin: 0%;
+    padding:0%;
+  }
+
+body { 
+    background-image: url(../multimedia/mona-estrellas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
