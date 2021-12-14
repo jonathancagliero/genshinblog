@@ -1,4 +1,3 @@
-@import "../base/extend";
 
 .mainArtefactos{
     display: grid;
@@ -12,7 +11,15 @@
                              "parrafo16 parrafo17 parrafo18 parrafo19 parrafo20"
                              "doncella1 doncella2 doncella3 doncella4 doncella5"
                              "parrafo21 parrafo22 parrafo23 parrafo24 parrafo25" ;     
-    gap: 1%;        
+    row-gap: 2%;
+    column-gap: 1%;    
+}
+
+.artifactsP {
+    color: whitesmoke;
+    background-color: rgba($color: #39161D, $alpha: 0.3);
+    font-size: 150%;
+
 }
 
 /*esmeralda*/
@@ -37,29 +44,23 @@
 }
 
 .parrafo1 {
-    grid-area: parrafo1;
-    @extend %parrafosartefactos;
-    
+    grid-area: parrafo1;    
  }
 
 .parrafo2 {
     grid-area: parrafo2;
-    @extend %parrafosartefactos;
 }
 
 .parrafo3 {
     grid-area: parrafo3;
-    @extend %parrafosartefactos;
 }
 
 .parrafo4 {
-    grid-area: parrafo4;
-    @extend %parrafosartefactos; 
+    grid-area: parrafo4; 
 }
 
 .parrafo5 {
 grid-area: parrafo5;
-@extend %parrafosartefactos;
 }
 
 /*esmeralda*/
@@ -83,23 +84,18 @@ grid-area: parrafo5;
 }
 .parrafo6 {
     grid-area: parrafo6;
-    @extend %parrafosartefactos;
  }
  .parrafo7 {
     grid-area: parrafo7;
-    @extend %parrafosartefactos;
  }
  .parrafo8 {
     grid-area: parrafo8;
-    @extend %parrafosartefactos;
  }
  .parrafo9 {
     grid-area: parrafo9;
-    @extend %parrafosartefactos;
  }
  .parrafo10 {
     grid-area: parrafo10;
-    @extend %parrafosartefactos;
  }
 /*gladiador*/
 
@@ -122,23 +118,18 @@ grid-area: parrafo5;
 }
 .parrafo11 {
     grid-area: parrafo11;
-    @extend %parrafosartefactos;
  }
  .parrafo12 {
     grid-area: parrafo12;
-    @extend %parrafosartefactos;
  }
  .parrafo13 {
     grid-area: parrafo13;
-    @extend %parrafosartefactos;
  }
  .parrafo14 {
     grid-area: parrafo14;
-    @extend %parrafosartefactos;
  }
  .parrafo15 {
     grid-area: parrafo15;
-    @extend %parrafosartefactos;
  }
  /*trueno*/
 
@@ -161,23 +152,18 @@ grid-area: parrafo5;
 }
 .parrafo16 {
     grid-area: parrafo16;
-    @extend %parrafosartefactos;
  }
  .parrafo17 {
     grid-area: parrafo17;
-    @extend %parrafosartefactos;
  }
  .parrafo18 {
     grid-area: parrafo18;
-    @extend %parrafosartefactos;
  }
  .parrafo19 {
     grid-area: parrafo19;
-    @extend %parrafosartefactos;
  }
  .parrafo20 {
     grid-area: parrafo20;
-    @extend %parrafosartefactos;
  }
  
  /*bruja*/
@@ -201,21 +187,16 @@ grid-area: parrafo5;
 }
 .parrafo21 {
     grid-area: parrafo21;
-    @extend %parrafosartefactos;
  }
  .parrafo22 {
     grid-area: parrafo22;
-    @extend %parrafosartefactos;
  }
  .parrafo23 {
     grid-area: parrafo23;
-    @extend %parrafosartefactos;
  }
  .parrafo24 {
     grid-area: parrafo24;
-    @extend %parrafosartefactos;
  }
  .parrafo25 {
     grid-area: parrafo25;
-    @extend %parrafosartefactos;
  }
