@@ -2,6 +2,9 @@ main {
     section{
         div{
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            text-align: center;
             
                 
         
@@ -10,9 +13,9 @@ main {
 }
 
 .stormterrorP{
-    padding-top: 400px;
     color: whitesmoke;
-    background-color: rgba($color: #4D735A, $alpha: 0.3);
+    background-color: rgba($color: #40CDA0, $alpha: 0.1);
+    font-size: 50px;
 }
 
 

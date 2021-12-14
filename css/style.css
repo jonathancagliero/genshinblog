@@ -80,6 +80,7 @@ main .elementos div a img:hover {
   color: whitesmoke;
   background-color: rgba(57, 22, 29, 0.3);
   font-size: 150%;
+  border-radius: 20px;
 }
 
 /*esmeralda*/
@@ -375,9 +376,11 @@ main .elementos div a img:hover {
   .mainArtefactos {
     display: grid;
     grid-template-areas: "Esmeralda1 Esmeralda2 Esmeralda3 " "parrafo1 parrafo2 parrafo3  " "Esmeralda4 Esmeralda5 esmeraldaa" "parrafo4 parrafo5 parrafo100" " gladiador1 gladiador2 gladiador3" " parrafo6 parrafo7 parrafo8" "gladiador4 gladiador5 gladiadorr" "parrafo9 parrafo10 parrafo101" "trueno1 trueno2 trueno3 " "parrafo11 parrafo12 parrafo13" "trueno4 trueno5 truenoo" "parrafo14 parrafo15 parrafo102" "bruja1 bruja2 bruja3" "parrafo16 parrafo17 parrafo18 " "bruja4 bruja5 brujaa" "parrafo19 parrafo20 parrafo103" "doncella1 doncella2 doncella3" "parrafo21 parrafo22 parrafo23 " "doncella4 doncella5 doncellaa" "parrafo24 parrafo25 parrafo104";
+    row-gap: 5px;
+    column-gap: 5px;
   }
 }
-@media only screen and (min-width: 5px) and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   main div div a img {
     width: 150px;
     height: 150px;
@@ -402,7 +405,7 @@ main .elementos div a img:hover {
     font-size: 150%;
   }
 
-  body .mainArtefactos {
+  .mainArtefactos {
     display: grid;
     grid-template-areas: "Esmeralda1 Esmeralda2 " "parrafo1 parrafo2 " "Esmeralda3 Esmeralda4" " parrafo3 parrafo4" " Esmeralda5 esmeraldaa" " parrafo5 parrafo101" " gladiador1 gladiador2 " " parrafo6 parrafo7 " "gladiador3 gladiador4 " " parrafo8 parrafo9 " "gladiador5 gladiadorr" " parrafo10 parrafo101" "trueno1 trueno2 " "parrafo11 parrafo12" " trueno3 trueno4 trueno5" " parrafo13 parrafo14" " trueno5 truenoo" " parrafo15 parrafo102" "bruja1 bruja2" "parrafo16 parrafo17" " bruja3 bruja4 bruja5" " parrafo18 parrafo19" " bruja5 brujaa" " parrafo20 parrafo103" "doncella1 doncella2" "parrafo21 parrafo22" " doncella3 doncella4" " parrafo23 parrafo24" " doncella5 doncellaa" " parrafo25 parrafo104";
     row-gap: 2%;
@@ -411,12 +414,15 @@ main .elementos div a img:hover {
 }
 main section div {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .stormterrorP {
-  padding-top: 400px;
   color: whitesmoke;
-  background-color: rgba(77, 115, 90, 0.3);
+  background-color: rgba(64, 205, 160, 0.1);
+  font-size: 50px;
 }
 
 * {
