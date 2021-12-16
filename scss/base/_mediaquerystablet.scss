@@ -1,0 +1,56 @@
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+   /*index*/ 
+    .jon-title{
+        color: ghostwhite;
+    position: absolute;
+    right: 20vw;
+    font-size: 7vw;
+    text-decoration: underline;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    /*artefactos*/
+    .mainArtefactos{
+                    display: grid;
+                     grid-template-areas: "Esmeralda1 Esmeralda2 Esmeralda3 " 
+                                 "parrafo1 parrafo2 parrafo3  "
+                                 "Esmeralda4 Esmeralda5 esmeraldaa"
+                                 "parrafo4 parrafo5 parrafo100"
+                             " gladiador1 gladiador2 gladiador3"
+                                 " parrafo6 parrafo7 parrafo8"
+                                 "gladiador4 gladiador5 gladiadorr"
+                                 "parrafo9 parrafo10 parrafo101"
+                                    "trueno1 trueno2 trueno3 "
+                                 "parrafo11 parrafo12 parrafo13"
+                                 "trueno4 trueno5 truenoo"
+                                 "parrafo14 parrafo15 parrafo102"
+                                    "bruja1 bruja2 bruja3"
+                                 "parrafo16 parrafo17 parrafo18 "
+                                 "bruja4 bruja5 brujaa"
+                                 "parrafo19 parrafo20 parrafo103"
+                                 "doncella1 doncella2 doncella3"
+                                 "parrafo21 parrafo22 parrafo23 "
+                                 "doncella4 doncella5 doncellaa"
+                                 "parrafo24 parrafo25 parrafo104"         ;  
+        row-gap: 5px;
+        column-gap: 5px;                            
+           
+    }
+    .mainArtefactos div img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .artifactsP{
+        font-size: 125%;
+    }
+/*jefes*/
+    section div div img{
+        width: 700px;
+        height: 500px;
+    }
+    
+    }
