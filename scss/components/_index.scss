@@ -9,13 +9,15 @@ main{
         &:hover{
             opacity: 1;
         }
-         div{
+      
+         div{ 
              a{
                 transition: all 2s;
+              
                  img{
                     width: 350px;
                     height: 350px;
-                    padding: 5px;   
+                    padding: 10px;   
                     transition: all 2s;
                     &:hover{
                         transform: scale(1.2);

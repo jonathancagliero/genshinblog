@@ -1,3 +1,17 @@
+.stormTitle{
+    font-size: 8vw;
+    color: #40CDA0;
+    text-decoration: underline;
+    text-align: center;
+}
+.stormterrorP{
+    color: whitesmoke;
+    background-color: rgba($color: #40CDA0, $alpha: 0.1);
+    font-size: 3vw;
+}
+
+
+
 main {
     section{
         div{
@@ -5,17 +19,36 @@ main {
             flex-wrap: wrap;
             justify-content: space-evenly;
             text-align: center;
-            
-                
-        
+                   
         }
     }
 }
-
-.stormterrorP{
+.andriusTitle{
+    font-size: 8vw;
+    color: #156CB0;
+    text-decoration: underline;
+    text-align: center;
+}
+.andriusP{
     color: whitesmoke;
-    background-color: rgba($color: #40CDA0, $alpha: 0.1);
-    font-size: 50px;
+    background-color: rgba($color: #156CB0, $alpha: 0.3);
+    font-size: 3vw;
+
+}
+
+.azhdahaTitle {
+    font-size: 8vw;
+    color: #954413;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.azhdahaP{
+    color: whitesmoke;
+    background-color: rgba($color: #954413, $alpha: 0.2);
+    font-size: 3vw;
+
+
 }
 
 
