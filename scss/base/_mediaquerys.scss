@@ -1,5 +1,5 @@
 @media screen and (min-width: 701px) and (max-width: 1200px) {
-    
+   /*index*/ 
     .jon-title{
         color: ghostwhite;
     position: absolute;
@@ -12,6 +12,7 @@
         width: 100%;
         height: 100%;
     }
+    /*artefactos*/
     .mainArtefactos{
                     display: grid;
                      grid-template-areas: "Esmeralda1 Esmeralda2 Esmeralda3 " 
@@ -38,15 +39,23 @@
         column-gap: 5px;                            
            
     }
+    .mainArtefactos div img{
+        width: 200px;
+        height: 200px;
+    }
 
+    .artifactsP{
+        font-size: 125%;
+    }
+/*jefes*/
     section div div img{
         width: 700px;
         height: 500px;
     }
-
+    
     }
 @media screen and (max-width: 700px) {
-
+/* index */
     .jon-title{
         color: ghostwhite;
     position: absolute;
@@ -73,7 +82,7 @@
         display: flex;
         flex-wrap: wrap;
         font-size: 150%;}
-
+  /*artefactos*/
     .mainArtefactos{
                     display: grid;
                     grid-template-areas: "Esmeralda1 Esmeralda2 " 
@@ -106,13 +115,26 @@
                                      " parrafo23 parrafo24"
                                      " doncella5 doncella0"
                                      " parrafo25 parrafo03" ;     
-            row-gap: 2%;
-            column-gap: 1%;    
+                    row-gap: 1px;           
+                    column-gap: 5px;    
         }    
 
+
+
+    .artifactsP{
+                font-size: 100%;
+        }
+    
+    .mainArtefactos div img{
+                              width: 150px;
+                              height: 150px;
+        }
+
+     /* jefes*/   
     section div div img{
-            width: 300px;
-            height: 300px;
+                         width: 300px;
+                         height: 300px;
         }    
-      
+    
+   
     }

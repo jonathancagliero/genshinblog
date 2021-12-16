@@ -13,8 +13,13 @@
                              "parrafo16 parrafo17 parrafo18 parrafo19 parrafo20"
                              "doncella1 doncella2 doncella3 doncella4 doncella5"
                              "parrafo21 parrafo22 parrafo23 parrafo24 parrafo25" ;     
-    row-gap: 2%;
+    row-gap: 1%;
     column-gap: 1%;    
+}
+
+.mainArtefactos div img{
+    width: 225px;
+    height: 225px;
 }
 
 .artifactsP {
