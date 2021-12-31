@@ -13,8 +13,7 @@
                              "parrafo16 parrafo17 parrafo18 parrafo19 parrafo20"
                              "doncella1 doncella2 doncella3 doncella4 doncella5"
                              "parrafo21 parrafo22 parrafo23 parrafo24 parrafo25" ;     
-    row-gap: 1%;
-    column-gap: 1%;    
+    row-gap: 1%;  
 }
 
 .mainArtefactos div img{
@@ -27,6 +26,8 @@
     background-color: rgba($color: #39161D, $alpha: 0.3);
     font-size: 150%;
     border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
@@ -47,7 +48,7 @@
     grid-area: Esmeralda4;
 }
 
-.esmeralda5 {
+.esmeralda5{
     grid-area: Esmeralda5;
 }
 
