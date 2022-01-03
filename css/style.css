@@ -300,75 +300,14 @@ main .elementos div a img:hover {
   grid-area: parrafo25;
 }
 
-.mainPersonajes {
-  align-items: center;
-  display: grid;
-  grid-template-areas: "xiangl xianglin  parrafoxian parrafoxian" "xiangl xianglin parrafoxian parrafoxian" "parrafovi parrafoviaj viajero viajero" "parrafovi parrafoviaj viajero viajero" "barba barbara parrafobarb parrafobarb" "barba barbara parrafobarb parrafobarb" "parraf parrafokae kaeya kaeya" "parrafo parrafokae kaeya kaeya" "fis fisch  parrafofisch parrafofisch" "fis fisch parrafofisch parrafofisch" "parrafon parrafonoel noelle noelle" "parrafon parrafonoel noelle noelle";
-}
-
-.Xiangling {
-  grid-area: xianglin;
-}
-
-.pxiangling {
-  grid-area: parrafoxian;
-  font-size: 25px;
-  color: silver;
-}
-
-.viajero {
-  grid-area: viajero;
-}
-
-.pviajero {
-  grid-area: parrafoviaj;
-  font-size: 25px;
-  color: silver;
-}
-
-.barbara {
-  grid-area: barbara;
-}
-
-.pbarbara {
-  grid-area: parrafobarb;
-  font-size: 25px;
-  color: silver;
-}
-
-.kaeya {
-  grid-area: kaeya;
-}
-
-.pkaeya {
-  grid-area: parrafokae;
-  font-size: 25px;
-  color: silver;
-}
-
-.fisch {
-  grid-area: fisch;
-}
-
-.pfisch {
-  grid-area: parrafofisch;
-  font-size: 25px;
-  color: silver;
-}
-
-.noelle {
-  grid-area: noelle;
-}
-
-.pnoelle {
-  grid-area: parrafonoel;
-  font-size: 25px;
-  color: silver;
+.personajeCard {
+  width: 380px;
+  height: 650px;
 }
 
 .personaje {
-  width: 380px;
-  height: 650px;
+  width: 250x;
+  height: 300px;
 }
 
 @media screen and (min-width: 701px) and (max-width: 1200px) {

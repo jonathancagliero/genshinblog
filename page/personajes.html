@@ -70,15 +70,21 @@
 
     <!--inicio main-->
 
-    <!-- aca pondria una imagen dle personaje y descripcion a la derecha
-    pero todavia no decidi si poner 1 de cada elemento o 2 de cada 
-    y aca te traerian los links de los elementos del index-->
-    <main class="mainPersonajes container">
-        
-        <div class="Xiangling" data-aos="flip-left" >
-            <img class="personaje"  id="pyro" src="../multimedia/Xiangling_Card.png" alt="imagen de Xiangling sosteniendo su lanza">
+    <!-- aca pondria una imagen de personaje y descripcion a la derecha
+    pero todavia no decidi si poner 1 de cada elemento-->
+    <main class="container">
+       <div class="row justify-content-center"> 
+ 
+        <div class="col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <img class="personaje justify-content-center" src="../multimedia/xiangling.png" alt="">
         </div>
-        <p class="pxiangling bg-dark p-2 bg-opacity-50">
+
+        <div class="Xiangling d-none d-lg-block col-lg-6 col-md-6" data-aos="flip-left" data-aos-duration="1500" >
+            <img class="personajeCard"  id="pyro" src="../multimedia/Xiangling_Card.png" alt="imagen de Xiangling sosteniendo su lanza">
+        </div>
+        <p class="pxiangling d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
             La jefa de cocina del Restaurante Wanmin y también camarera allí, 
             Xiangling es una apasionada de la cocina y destaca en sus platos picantes y característicos.<br><br> 
              Aunque todavía es joven, Xiangling es una verdadera maestra
@@ -87,37 +93,57 @@
              No hay absolutamente ninguna necesidad de estar nervioso si quiere que pruebes su última creación. <br><br>
              No te defraudará.
         </p>
-
-        <div class="viajero" data-aos="flip-left">
-            <img class="personaje" src="../multimedia/card_Viajero.png" alt="imagen del viajero con su espada ligera">
         </div>
-        <p class="pviajero bg-dark p-2 bg-opacity-50">
-            Un niño y una niña se pararon en medio del tumulto, bajo un cielo desconocido.<br>
-            Eran un par de gemelos viajando, pasando por innumerables mundos durante tu viaje.<br> 
-            Al descender a un continente llamado Teyvat, esperaba poder disfrutar de su tiempo aquí.<br>
-            <br>
-            Pero cuando te despertaste entre las estrellas fugaces, viste el mundo en confusión, un cataclismo arrasando la tierra...
-            <br>
-            Intentaste salir de este lugar y pasar al siguiente mundo, pero entonces una Diosa Desconocida se paró ante ti, bloqueando el camino. 
-            Esta deidad estaba impecable, flotando sobre un mundo de caos.
-            <br>
-            Mirándote.
-            <br>
-            La diosa se llevó a tu única familia, y fuiste sellado y arrojado a un profundo sueño lleno de pesadillas...
-            <br>
-            Cuando despertaste, el mundo cambió. Las llamas de la guerra ya no ardían y no quedaba nada que pareciera familiar.
-            <br>
-            ¿Cuánto tiempo llevas dormido? No tenías respuestas.
-             <br>
-            Así que comenzaste un viaje solitario, en busca de la deidad que una vez habías visto...
-        </p>
 
-        <div class="barbara" data-aos="flip-left">
-            <img class="personaje" src="../multimedia/barbara_card.png" alt="imagen de barbara guiñando un ojo">
+        <div class="row">
+
+            <div class="personaje col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <img class="personaje justify-content-center" src="../multimedia/viajero.png" alt="">
+            </div>
+           
+            <p class="pviajero d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
+                Un niño y una niña se pararon en medio del tumulto, bajo un cielo desconocido.<br>
+                Eran un par de gemelos viajando, pasando por innumerables mundos durante tu viaje.<br> 
+                Al descender a un continente llamado Teyvat, esperaba poder disfrutar de su tiempo aquí.<br>
+                <br>
+                Pero cuando te despertaste entre las estrellas fugaces, viste el mundo en confusión, un cataclismo arrasando la tierra...
+                <br>
+                Intentaste salir de este lugar y pasar al siguiente mundo, pero entonces una Diosa Desconocida se paró ante ti, bloqueando el camino. 
+                Esta deidad estaba impecable, flotando sobre un mundo de caos.
+                <br><br>
+                Mirándote.
+                <br><br>
+                La diosa se llevó a tu única familia, y fuiste sellado y arrojado a un profundo sueño lleno de pesadillas...
+                <br>
+                Cuando despertaste, el mundo cambió. Las llamas de la guerra ya no ardían y no quedaba nada que pareciera familiar.
+                <br>
+                ¿Cuánto tiempo llevas dormido? No tenías respuestas.
+                 <br>
+                Así que comenzaste un viaje solitario, en busca de la deidad que una vez habías visto...
+            </p>
+
+        <div class="viajero d-none d-lg-block col-lg-6 col-md-6" data-aos="flip-left" data-aos-duration="1500">
+            <img class="personajeCard" src="../multimedia/card_Viajero.png" alt="imagen del viajero con su espada ligera">
         </div>
-        <p class="pbarbara bg-dark p-2 bg-opacity-50">
+       
+        </div>
+        
+        <div class="row">
+       
+            <div class="personaje col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <img class="personaje justify-content-center" src="../multimedia/barbara.png" alt="">
+            </div>
+
+        <div class="barbara d-none d-lg-block col-lg-6 col-md-6" data-aos="flip-left" data-aos-duration="1500">
+            <img class="personajeCard" src="../multimedia/barbara_card.png" alt="imagen de barbara guiñando un ojo">
+        </div>
+        <p class="pbarbara d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
             La diaconisa de la iglesia Favonius y una estrella brillante adorada por todos. 
-            Aunque el concepto de una estrella joven es bastante novedoso en una ciudad de bardos,
+            Aunque el concepto de una estrella joven es bastante novedoso en una ciudad de bardos,s
              la gente de Mondstadt ama a Bárbara de todos modos.
             <br><br>
             Bárbara es la diaconisa de la iglesia Favonius, así como la ídolo brillante de Mondstadt.
@@ -131,21 +157,41 @@
             <br><br>
             Sin embargo, la propia Bárbara sabe que la magia más milagrosa de todas es el trabajo duro.
         </p>
-
-        <div class="kaeya" data-aos="flip-left">
-            <img class="personaje" src="../multimedia/Kaeya_Card.png" alt="imagen de kaeya centado en un trono de nieve">
+        
         </div>
-        <p class="pkaeya bg-dark p-2 bg-opacity-50">
-            En los Caballeros de Favonius, Kaeya es el ayudante más confiable de la Gran Maestra Interina Jean. <br><br> 
-            Siempre puede contar con él para resolver cualquier problema insoluble. <br><br>
-             Todos en Mondstadt aman a Kaeya,
-             pero nadie sabe qué secretos tiene este ingenioso y encantador caballero.
-        </p>
 
-        <div class="fisch" data-aos="flip-left">
-            <img class="personaje" src="../multimedia/Fischl_Card.png" alt="imagen de fisch posando ">
+        <div class="row">
+            <div class="personaje col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <img class="personaje justify-content-center" src="../multimedia/kaeya.png" alt="">
+            </div>
+
+         <p class="pkaeya d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
+                En los Caballeros de Favonius, Kaeya es el ayudante más confiable de la Gran Maestra Interina Jean. <br><br> 
+                Siempre puede contar con él para resolver cualquier problema insoluble. <br><br>
+                 Todos en Mondstadt aman a Kaeya,
+                 pero nadie sabe qué secretos tiene este ingenioso y encantador caballero.
+         </p>
+
+        <div class="kaeya d-none d-lg-block col-lg-6 col-md-6" data-aos="flip-left" data-aos-duration="1500">
+            <img class="personajeCard" src="../multimedia/Kaeya_Card.png" alt="imagen de kaeya centado en un trono de nieve">
         </div>
-        <p class="pfisch bg-dark p-2 bg-opacity-50">
+      
+        </div>
+
+        <div class="row justify-content-lg-center">
+
+            <div class="personaje col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <img class="personaje justify-content-center" src="../multimedia/fisch.png" alt="">
+            </div>
+
+            <div class="fisch d-none d-lg-block col-lg-6 col-md-6 " data-aos="flip-left" data-aos-duration="1500">
+            <img class="personajeCard " src="../multimedia/Fischl_Card.png" alt="imagen de fisch posando ">
+        </div>
+        <p class="pfisch d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
             Una chica misteriosa que se hace llamar "la princesa del juicio". <br><br>
             Siempre camina junto con un cuervo oscuro, llamado Oz. <br><br>
             Actualmente hace de investigadora en el Gremio de Aventureros. <br><br>
@@ -155,18 +201,30 @@
              ganándose el reconocimiento de todos.
         </p>
 
-        <div class="noelle" data-aos="flip-left">
-            <img class="personaje" src="../multimedia/noelle_card.png" alt="imagen de noelle sosteniendo sus manos">
         </div>
-        <p class="pnoelle bg-dark p-2 bg-opacity-50">
-            Al igual que otros jóvenes de Mondstadt, 
-            Noelle sueña en convertirse en una Caballera Honorable de Favonius.<br><br>
-            Aunque todavía no tiene las cualidades de un caballero, 
-            Noelle trabaja dentro de la sede de Favonius como criada, 
-            a la vez que estudia con detenimiento cada palabra y cada movimiento de los caballeros.<br><br>
-             Tiene la firme convicción de que, siempre y cuando trabaje duro, 
-            llegará el día en el que portará la armadura de los caballeros con orgullo
-        </p>
+
+        <div class="row">
+         <div class="personaje col-md-12 d-flex justify-content-center d-xl-none d-xxl-none d-lg-none" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500" >
+             <img class="personaje justify-content-center" src="../multimedia/noelle.png" alt="">
+         </div>   
+
+        <p class="pnoelle d-flex align-items-center col-lg-6 col-md-12 text-light fs-5 bg-dark bg-opacity-50">
+                Al igual que otros jóvenes de Mondstadt, 
+                Noelle sueña en convertirse en una Caballera Honorable de Favonius.<br><br>
+                Aunque todavía no tiene las cualidades de un caballero,
+                Noelle trabaja dentro de la sede de Favonius como criada, 
+                a la vez que estudia con detenimiento cada palabra y cada movimiento de los caballeros.<br><br>
+                 Tiene la firme convicción de que, siempre y cuando trabaje duro, 
+                llegará el día en el que portará la armadura de los caballeros con orgullo
+         </p>
+
+        <div class="noelle d-none d-lg-block col-lg-6 col-md-6" data-aos="flip-left" data-aos-duration="1500">
+            <img class="personajeCard" src="../multimedia/noelle_card.png" alt="imagen de noelle sosteniendo sus manos">
+        </div>
+       
+        </div>
 
 
         
