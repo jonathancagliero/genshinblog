@@ -8,9 +8,9 @@
     text-decoration: underline;
     }
 
-    iframe{
-        width: 100%;
-        height: 100%;
+
+    .jon_sub_menu{
+        margin-left: 200px;
     }
     /*artefactos*/
     .mainArtefactos{
@@ -52,5 +52,23 @@
         width: 700px;
         height: 500px;
     }
+
+ /*armas*/
+ .armas .espada{
+    width: 100%;
+}
+.armas .mandoble{
+    width: 100%;
+}
+.armas .arco{
+    width: 90%;
+}
+.catalizador{
+    width: 100%;
+}
+.lanza{
+    width: 100%;
+}
+
     
     }

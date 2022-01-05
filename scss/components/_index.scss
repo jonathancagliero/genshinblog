@@ -15,12 +15,13 @@ main{
                 transition: all 2s;
               
                  img{
-                    width: 350px;
-                    height: 350px;
-                    padding: 10px;   
+                    width: 450px;
+                    height: 200px;
+                    margin: 50px;   
                     transition: all 2s;
                     &:hover{
                         transform: scale(1.2);
+                        transform: rotate(360deg);
                     }
 
                  }
@@ -29,3 +30,26 @@ main{
          }
      }
 }
+
+.iframeIndex{
+    padding: 5%;
+}
+
+footer{background-image: linear-gradient(to bottom, #b796c7, #a180b4, #8c6aa1, #77558e, #62417c, #53366c, #442c5d, #36224e, #2a1d3e, #20182e, #17131e, #0b0a0d);
+      margin-top: 50px;
+      opacity: 0.9;
+        div{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        a{padding: 50px;
+            img{
+                width: 200px;
+                height: 200px;
+
+            }
+        }
+    }
+}
+
