@@ -321,8 +321,8 @@ footer div a img {
 }
 
 .personajeCard {
-  width: 380px;
-  height: 650px;
+  width: 300px;
+  height: 600px;
 }
 
 .personaje {
@@ -580,6 +580,7 @@ iframe {
 
 body {
   background-image: url(../multimedia/mona-estrellas.png);
+  background-color: purple;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
